@@ -6,16 +6,14 @@ const Routes = () => {
     return (
 
         <BrowserRouter>
-            <switch>
+            <Switch>
                 <Route path="/" exact>
                     <Home />
                 </Route>
                 <Route path="/dashboard">
                     <Dashboard />
                 </Route>
-
-
-            </switch>
+            </Switch>
         
 
         </BrowserRouter>
